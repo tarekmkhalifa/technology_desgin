@@ -1,0 +1,355 @@
+@font-face{
+	font-family: "Hammersmit";
+	src: url('../webfonts/Hammersmit/Hammersmit.woff2') format('woff2'),
+	 url('../webfonts/Hammersmit/HammersmithOne-Regular.woff') format('woff'),
+	 url('../webfonts/Hammersmit/HammersmithOne-Regular.ttf') format('truetype');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+
+html {
+	font-family: "Hammersmit";
+	font-size: 16px;
+}
+
+
+.banner {
+	background: url(../img/bg-01.jpg);
+	padding-bottom: 265px;
+}
+
+/* Header Section */
+.navigation {
+	border-bottom: 1px solid #989BAA ;
+	margin-bottom: 5px;
+	padding: 10px 0 ;
+	margin-bottom: 100px;
+}
+
+.navbar {
+	background-color: transparent !important;
+}
+.navbar-brand {
+	color: #989BAA !important;
+	text-transform: uppercase;
+}
+
+.navbar-brand span {
+	color: #1E9EAF !important;
+}
+
+.navbar-nav {
+	margin-left: auto;
+}
+
+.nav-item {
+	color: white !important;
+	text-transform: uppercase;
+}
+.nav-item:hover {
+	background-color: grey;
+}
+
+
+
+.main h1 {
+	margin-bottom: 25px;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+.main p {
+	margin-bottom: 25px;
+	color: grey;
+}
+
+.main button {
+	color: white;
+	font-size: 20px;
+}
+
+
+
+/* Second Section */
+
+.second {
+	background-color: #FAFAFA;
+}
+
+.cards {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.card {
+	margin: 1px;
+	padding-left: 0 !important;
+	padding: 40px;
+	width: 375px !important;
+}
+
+.card i {
+	font-size: 30px;
+}
+
+
+/* Third Section */
+.third {
+	padding: 50px;
+}
+
+
+/* Fourth Section */
+.forth {
+	background-color: #FAFAFA;
+	padding: 80px;
+}
+
+
+/* Five Section */
+
+.five {
+	padding: 80px;
+}
+.reviews {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.five h6 {
+	color: #7A7D8A;
+}
+.five span {
+	color: #C6C6CD;
+}
+
+/* Six Section */
+
+.six {
+	background-color: #FAFAFA;
+	padding: 80px;
+}
+
+.six .members {
+	display: flex;
+	justify-content: space-between !important;
+}
+
+.six .member {
+	padding: 60px;
+	background-color: white;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.six .member i {
+	display: inline-block;
+	padding: 20px;
+	font-size: 50px;
+	border: 2px solid #7A7D8A;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: grey;
+}
+
+.six span {
+	color: #7A7D8A;
+}
+
+.six h5 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #007;
+}
+
+.six p {
+	color: #7A7D8A;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.six button {
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/* Seven Section */
+
+.seven .clients {
+	padding: 50px;
+}
+
+.seven p {
+	color: #7A7D8A;
+}
+
+.seven img {
+	width: 660px;
+	height: 312px;
+}
+
+/* Eight Section */
+.eight {
+	background-color: gray;
+	padding: 70px;
+}
+
+
+.eight .case1 {
+	background: url(../img/cases-01.jpg);
+	filter:grayscale();
+	height: 300px;
+	width: 80%;
+	margin-bottom: 5px;
+}
+
+
+
+.case1 h5 {
+	position: absolute;
+	bottom: 40px;
+	color: white;
+}
+
+.case1 p {
+	position: absolute;
+	bottom: 0;
+	color: white;
+}
+
+.eight .case2 {
+	height: 300px;
+	width: 80%;
+	background: url(../img/cases-02.jpg) center center;
+	border-right: white 5px solid;
+	border-left: white 5px solid;
+	margin-bottom: 5px;
+}
+
+.eight .case3 {
+	height: 300px;
+	width: 80%;
+	background: url(../img/cases-03.jpg) center center;
+}
+
+
+/* Section nine */
+
+.nine {
+	padding: 50px;
+	background: url(../img/bg-02.jpg);
+	background-size:contain;
+	color: white;
+}
+
+.nine ul {
+	list-style: none;
+}
+
+.nine ul li {
+	padding: 10px;
+}
+.nine a {
+	color: white;
+}
+.nine input {
+	background-color: transparent;
+	border: grey 1px solid;
+}
+
+
+.nine textarea {
+	padding-left: 10px;
+	padding-top: 10px;
+	background-color: transparent;
+	border: grey 1px solid;
+}
+
+.nine button {
+	color: black;
+}
+
+
+footer {
+	text-align: center;
+	margin-top: 30px;
+	border-top: 1px solid grey;
+	padding-top: 40px;
+}
+
+footer p {
+	color: #1E9EAF;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+
+#up {
+	/* display: none; */
+	display: none;
+	font-size: 35px;
+	color: #1E9EAF;
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+	cursor: pointer;
+	padding: 5px;
+	background-color: transparent;
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .wrapper {
+        max-width: 530px;
+    }
+
+	.members {
+		display: block;
+	}
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .wrapper {
+        max-width: 720px;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        max-width: 940px;
+    }
+
+	.seven img {
+		position: absolute;
+		right: 0;
+	}
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
